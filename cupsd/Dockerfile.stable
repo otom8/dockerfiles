@@ -1,5 +1,5 @@
 ARG MAINTAINER
-FROM debian:stable-slim
+FROM arm64v8/debian:stable-slim
 MAINTAINER $MAINTAINER
 
 # Install Packages (basic tools, cups, basic drivers, HP drivers)
